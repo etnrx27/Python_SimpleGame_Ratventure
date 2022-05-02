@@ -1,0 +1,8 @@
+Name,The Hero
+MinimumDmg,2
+MaximumDmg,4
+Defence,1
+HP,20
+X,0
+Y,0
+Day,1
