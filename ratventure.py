@@ -686,9 +686,6 @@ if val_orb(location_x, location_y) == False:
     elif location_x < 4:
         location_y = random.randint(4,7)
     val_orb(location_x, location_y)
-#For the purpose of demo, let
-location_x = 2
-location_y = 2
     
 #Displaying the main menu text
 for text in range(len(main_text)):
@@ -755,7 +752,7 @@ while int(stats.get("HP")) > 0:
             town(town_choice)
         if town_choice == "3":
             if world_map[y_coordinates][x_coordinates] == "H/K": # In the event that town spawn beside rat king
-                print("Day "+str(next_day)+": You see the Rat King!")
+                print("Day "+str(stats.get("Day")+": You see the Rat King!")
                 ratking_menu()
                 combat_choice = input("Enter choice: ")
                 while val_combat(combat_choice) == False:
