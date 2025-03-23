@@ -8,7 +8,7 @@ In this computer role-playing game, you will travel around a grid map searching 
 
 # Requirements 
 1) Display the main menu with options
-  1.1) Start a New game - Default town locations are found in "Town_coordinates.txt" and default player statistics are {"Name": The Hero, "Damage": 2-4, "Defence": 1, "HP": 20}
+1.1) Start a New game - Default town locations are found in "Town_coordinates.txt" and default player statistics are {"Name": The Hero, "Damage": 2-4, "Defence": 1, "HP": 20}
   1.2) Resume Game
   1.3) View Leaderboard - Views the Top 5 scores 
   1.3) Exit game
